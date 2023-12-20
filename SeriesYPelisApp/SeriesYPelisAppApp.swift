@@ -19,11 +19,7 @@ struct SeriesYPelisAppApp: App {
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
                 .environmentObject(rootViewModel)
                 .environmentObject(moviesViewModel)
-                .onAppear {
-                    DispatchQueue.main.asyncAfter(deadline: .now() + 3) {
-                        rootViewModel.status = .loaded
-                    }
-                }
+               
         }
     }
 }

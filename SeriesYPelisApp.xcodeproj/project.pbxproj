@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3CE68A752B2CB870004522C2 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE68A742B2CB870004522C2 /* LoginViewModel.swift */; };
 		3CFA398E2B2B08ED00BFE872 /* SeriesYPelisAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CFA398D2B2B08ED00BFE872 /* SeriesYPelisAppApp.swift */; };
 		3CFA39902B2B08ED00BFE872 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CFA398F2B2B08ED00BFE872 /* ContentView.swift */; };
 		3CFA39922B2B08EF00BFE872 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CFA39912B2B08EF00BFE872 /* Assets.xcassets */; };
@@ -46,6 +47,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3CE68A742B2CB870004522C2 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		3CFA398A2B2B08ED00BFE872 /* SeriesYPelisApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeriesYPelisApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CFA398D2B2B08ED00BFE872 /* SeriesYPelisAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeriesYPelisAppApp.swift; sourceTree = "<group>"; };
 		3CFA398F2B2B08ED00BFE872 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -231,6 +233,7 @@
 			children = (
 				3CFA39C92B2B0C4300BFE872 /* MoviesViewModel.swift */,
 				3CFA39CD2B2B129900BFE872 /* RootViewModel.swift */,
+				3CE68A742B2CB870004522C2 /* LoginViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -373,6 +376,7 @@
 				3CFA39D82B2B186100BFE872 /* LoadingView.swift in Sources */,
 				3CFA39D42B2B17A000BFE872 /* SplashView.swift in Sources */,
 				3CFA39D02B2B139F00BFE872 /* MoviesView.swift in Sources */,
+				3CE68A752B2CB870004522C2 /* LoginViewModel.swift in Sources */,
 				3CFA39CA2B2B0C4300BFE872 /* MoviesViewModel.swift in Sources */,
 				3CFA399A2B2B08EF00BFE872 /* SeriesYPelisApp.xcdatamodeld in Sources */,
 				3CFA39CE2B2B129900BFE872 /* RootViewModel.swift in Sources */,

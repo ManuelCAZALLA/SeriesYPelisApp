@@ -11,6 +11,6 @@ import Combine
 final class RootViewModel: ObservableObject {
     private var suscriptor: Set<AnyCancellable> = []
     
-    @Published var status = StatusModel.none
+    @Published var status = StatusModel.loaded
     @Published var movies: Movie?
 }

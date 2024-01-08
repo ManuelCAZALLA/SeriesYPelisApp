@@ -15,7 +15,7 @@ struct RootView: View {
             switch rootViewModel.status {
             case .none:
                 withAnimation {
-                   SplashView()
+                 LoginView()
                 }
             case .loaded:
                 withAnimation {

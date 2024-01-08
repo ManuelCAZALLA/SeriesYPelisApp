@@ -16,7 +16,7 @@ final class MoviesViewModel: ObservableObject {
     
     func getMovies() {
         self.status = .none
-        URLSession.shared.dataTaskPublisher(for: BaseNetwork().getMovies())
+        URLSession.shared.dataTaskPublisher(for: BaseNetwork().getAllMovies())
             .tryMap {
                 guard let response = $0.response as? HTTPURLResponse,
                       response.statusCode == 200 else {
